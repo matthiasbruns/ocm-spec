@@ -236,13 +236,9 @@ An artifact described by a [component version](#compvers) containing sources use
 
 A format definition for the specification of attributes for dedicated variants of some [extension points](#ext). See [access methods](#accmeth), [repository types](#repotype), and [labels](#labels).
 
-### [s3](./04-extensions/02-access-types/s3.md#s3-legacy)<a id="s3"/>
+### [s3](./04-extensions/02-access-types/s3.md)<a id="s3"/>
 
-The legacy [access method](#accmeth) used to access blobs in an S3 repository, a [mapping](#mapping) to store [content](#content) in an S3 repository. It is superseded by [s3Bucket](#s3bucket).
-
-### [s3Bucket](./04-extensions/02-access-types/s3.md#s3bucket)<a id="s3bucket"/>
-
-An [access method](#accmeth) used to access a single object in an S3 or S3 compatible bucket. The same specification format is also used as an input type, which stores the object as a [local blob](#localblob) in the [component version](#compvers).
+An [access method](#accmeth) used to access blobs in an S3 repository, a [mapping](#mapping) to store [content](#content) in an S3 repository
 
 ## T
 
